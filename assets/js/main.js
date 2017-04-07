@@ -1,3 +1,4 @@
+
 //alert ('Scroll horizontal realizado: '+window.pageYOffset||document.body.scrollTop);
 document.getElementById('toggle').addEventListener("click",function(e){
   e.preventDefault();
@@ -25,6 +26,7 @@ window.addEventListener("scroll",function(){
   }
   ultimaPosScroll =posScroll;
 },false);
+
 /**************Lista dinamica de coders********************/
 
 var coders = [];
@@ -89,36 +91,36 @@ window.addEventListener('load', function () {
       var coderLima20 = new Coder(20,"Sandra","assets/img/coders/20.png");
       var coderLima21 = new Coder(21,"Enma","assets/img/coders/21.png");
       var coderLima22 = new Coder(22,"Danna","assets/img/coders/22.png");
-      var coderLima23 = new Coder(23,"Nadia Cuadros","assets/img/coders/13.png");
-      var coderLima24 = new Coder(24,"Misshel More","assets/img/coders/14.png");
-      var coderLima25 = new Coder(25,"Marilu Llamocca","assets/img/coders/15.png");
-      var coderLima26 = new Coder(26,"Mariel del Rosario","assets/img/coders/16.png");
-      var coderLima27 = new Coder(27,"Fiorela Cisneros","assets/img/coders/17.png");
-      var coderLima28 = new Coder(28,"Geraldine Chauca","assets/img/coders/18.png");
-      var coderLima29 = new Coder(29,"Yelitza Choque","assets/img/coders/19.png");
-      var coderLima30 = new Coder(30,"Sandra","assets/img/coders/20.png");
-      var coderLima31 = new Coder(31,"Enma","assets/img/coders/21.png");
-      var coderLima32 = new Coder(32,"Danna","assets/img/coders/22.png");
-      var coderLima33 = new Coder(33,"Nadia Cuadros","assets/img/coders/13.png");
-      var coderLima34 = new Coder(34,"Misshel More","assets/img/coders/14.png");
-      var coderLima35 = new Coder(35,"Marilu Llamocca","assets/img/coders/15.png");
-      var coderLima36 = new Coder(36,"Mariel del Rosario","assets/img/coders/16.png");
-      var coderLima37 = new Coder(37,"Fiorela Cisneros","assets/img/coders/17.png");
-      var coderLima38 = new Coder(38,"Geraldine Chauca","assets/img/coders/18.png");
-      var coderLima39 = new Coder(39,"Yelitza Choque","assets/img/coders/19.png");
-      var coderLima40 = new Coder(40,"Sandra","assets/img/coders/20.png");
-      var coderLima41 = new Coder(41,"Enma","assets/img/coders/21.png");
-      var coderLima42 = new Coder(42,"Danna","assets/img/coders/22.png");
-      var coderLima43 = new Coder(43,"Nadia Cuadros","assets/img/coders/13.png");
-      var coderLima44 = new Coder(44,"Misshel More","assets/img/coders/14.png");
-      var coderLima45 = new Coder(45,"Marilu Llamocca","assets/img/coders/15.png");
-      var coderLima46 = new Coder(46,"Mariel del Rosario","assets/img/coders/16.png");
-      var coderLima47 = new Coder(47,"Fiorela Cisneros","assets/img/coders/17.png");
-      var coderLima48 = new Coder(48,"Geraldine Chauca","assets/img/coders/18.png");
-      var coderLima49 = new Coder(49,"Yelitza Choque","assets/img/coders/19.png");
-      var coderLima50 = new Coder(50,"Sandra","assets/img/coders/20.png");
-      var coderLima51 = new Coder(51,"Enma","assets/img/coders/21.png");
-      var coderLima52 = new Coder(52,"Danna","assets/img/coders/22.png");
+      var coderLima23 = new Coder(23,"Nadia Cuadros","assets/img/coders/23.png");
+      var coderLima24 = new Coder(24,"Misshel More","assets/img/coders/24.png");
+      var coderLima25 = new Coder(25,"Marilu Llamocca","assets/img/coders/25.png");
+      var coderLima26 = new Coder(26,"Mariel del Rosario","assets/img/coders/26.png");
+      var coderLima27 = new Coder(27,"Fiorela Cisneros","assets/img/coders/27.png");
+      var coderLima28 = new Coder(28,"Geraldine Chauca","assets/img/coders/28.png");
+      var coderLima29 = new Coder(29,"Yelitza Choque","assets/img/coders/29.png");
+      var coderLima30 = new Coder(30,"Sandra","assets/img/coders/30.png");
+      var coderLima31 = new Coder(31,"Enma","assets/img/coders/31.png");
+      var coderLima32 = new Coder(32,"Danna","assets/img/coders/32.png");
+      var coderLima33 = new Coder(33,"Nadia Cuadros","assets/img/coders/33.png");
+      var coderLima34 = new Coder(34,"Misshel More","assets/img/coders/34.png");
+      var coderLima35 = new Coder(35,"Marilu Llamocca","assets/img/coders/35.png");
+      var coderLima36 = new Coder(36,"Mariel del Rosario","assets/img/coders/36.png");
+      var coderLima37 = new Coder(37,"Fiorela Cisneros","assets/img/coders/37.png");
+      var coderLima38 = new Coder(38,"Geraldine Chauca","assets/img/coders/38.png");
+      var coderLima39 = new Coder(39,"Yelitza Choque","assets/img/coders/39.png");
+      var coderLima40 = new Coder(40,"Sandra","assets/img/coders/40.png");
+      var coderLima41 = new Coder(41,"Enma","assets/img/coders/41.png");
+      var coderLima42 = new Coder(42,"Danna","assets/img/coders/42.png");
+      var coderLima43 = new Coder(43,"Nadia Cuadros","assets/img/coders/43.png");
+      var coderLima44 = new Coder(44,"Misshel More","assets/img/coders/44.png");
+      var coderLima45 = new Coder(45,"Marilu Llamocca","assets/img/coders/45.png");
+      var coderLima46 = new Coder(46,"Mariel del Rosario","assets/img/coders/46.png");
+      var coderLima47 = new Coder(47,"Fiorela Cisneros","assets/img/coders/47.png");
+      var coderLima48 = new Coder(48,"Geraldine Chauca","assets/img/coders/48.png");
+      var coderLima49 = new Coder(49,"Yelitza Choque","assets/img/coders/49.png");
+      var coderLima50 = new Coder(50,"Sandra","assets/img/coders/50.png");
+      var coderLima51 = new Coder(51,"Enma","assets/img/coders/51.png");
+      var coderLima52 = new Coder(52,"Danna","assets/img/coders/52.png");
       var coderLima53 = new Coder(53,"Danna","assets/img/coders/22.png");
       coders.push(coderLima1);
       coders.push(coderLima2);
