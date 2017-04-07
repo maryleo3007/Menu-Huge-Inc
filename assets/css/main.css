@@ -1,3 +1,6 @@
+body{
+  background: #F1F1F1;
+}
 nav {
   top: 0;
   left: 0;
@@ -197,15 +200,15 @@ img{
   text-align:center;
 }
 .box:hover img {
-  transform: scale(1.02);/*Damos un ligero zoom a la imagen*/
+  transform: scale(1.02);
 }
 .box:hover .span-nombre {
   opacity: 2;
 }
 .nombre{
-  font-size: 20px;
-  padding: 50% 0% 0% 0%;
+  font-size: 30px;
+  padding: 45% 0% 0% 0%;
   font-family:monospace;
   color: white;
-
+  display: block;
 }
